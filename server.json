@@ -3,12 +3,26 @@
   "name": "io.github.fahimk/reviewbot",
   "title": "ReviewBot App Reviews",
   "description": "Read collected App Store and Google Play reviews and bounded feedback statistics.",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "websiteUrl": "https://reviewbot.io/",
   "remotes": [
     {
       "type": "streamable-http",
       "url": "https://api.reviewbot.io/mcp"
+    }
+  ],
+  "repository": {
+    "url": "https://github.com/reviewbot-io/reviewbot-mcp",
+    "source": "github",
+    "id": "1445680435"
+  },
+  "icons": [
+    {
+      "src": "https://raw.githubusercontent.com/reviewbot-io/reviewbot-mcp/b66b600ffaeb1e4f4e562e7abb321864a51083e4/assets/icon.png",
+      "mimeType": "image/png",
+      "sizes": [
+        "256x256"
+      ]
     }
   ]
 }
